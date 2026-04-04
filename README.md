@@ -23,3 +23,21 @@ Once the data is refined, Exploratory Data Analysis (EDA) and advanced visualiza
 * about 25% of your sales are below 800
 * about 50% of your sales are below 2000
 * about 75% of your sales are below 3500
+<img width="469" height="325" alt="output1" src="https://github.com/user-attachments/assets/6c439760-37af-4f5a-9ce9-3ebf124727e6" />
+
+#### From the BoxPlot graph we can show and notice that :
+* Feature vs. Target Observations:
+  * Based on your business understanding, would you expect this feature to be a predictor of the target?
+    * `...` Yes , based on business understanding, Item_MRP can be a predictor of sales. In fact, when item MRP is high, sales tend to be Higher
+  * Does this feature appear to be a predictor of the target?
+    * `...` ? Yes , There is a positive correlation between Item_MRP and Item_Outlet_Sales
+<img width="467" height="307" alt="output8" src="https://github.com/user-attachments/assets/ec0e2862-aeb1-4429-b7a1-545dc0f6f081" />
+
+* Feature vs. Target Observations:
+  * Based on your business understanding, would you expect this feature to be a predictor of the target?
+    * `...` Yes , based on business understanding, Outlet_Type can be impact the item_outlet_sales
+  * Does this feature appear to be a predictor of the target?
+    * `...` ? Yes , The mean of sales have different value when Outlet_Type change , Grocery the lowest , type 3 is the highest , so its can be a predictor of the target
+
+___
+
