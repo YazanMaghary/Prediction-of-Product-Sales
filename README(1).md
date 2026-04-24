@@ -72,23 +72,33 @@
       
 ## Model
 
-Describe your final model
+* We decide after a lot of imputation and evaluation to process and choose the random forest model tuned with cusom parameters
+### Model Metrics :
 
-Report the most important metrics
+<img width="399" height="149" alt="Image" src="https://github.com/user-attachments/assets/06b9535f-35d5-4755-984b-b4569f488ed2" />
 
-Refer to the metrics to describe how well the model would solve the business problem
+* Model Interpretation: 
+   * Our model is berform will with r2_score 0.666 for training set and 0.598 for testing set thats mean that our model will predict the price With 66.6% accuracy for training set and 59.8% accuracy for testing set
+* choosing MAE :
+   * i choose it for showing the stakeholder that the predicted price are off about 742 units than the real price , and that know as average absolute error
+* after choosing best parameters the r2_score for training set is 0.666 and r2_score for testing set is 0.598 ,so there is no overfitting or underfitting or there is only very low difference between r2_score for training set and r2_score for testing set
 
 ## Recommendations:
 
-More of your own text here
-
+- Enhance the dataset by adding new features with strong correlation to the target variable to improve prediction accuracy.
+- Tune hyperparameters using GridSearchCV or RandomizedSearchCV to improve model performance.
+- Apply proper scaling/normalization where needed.
+- Increase dataset size if possible to improve model robustness.
+- Continuously monitor and retrain the model with new data.
 
 ## Limitations & Next Steps
 
-More of your own text here
-
+- Prediction errors are relatively high (RMSE ≈ 1053 on test data), which may affect business decisions.
+- Data quality issues (e.g., missing values, inconsistencies) may impact model performance.
+- Feature havn't strong relation or impacts on target.
+* Next Step is to adding more fetaure and increasing data set rows to analyze more data with new strong related to target features 
 
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact **maghary.yazan@gmail.com**
