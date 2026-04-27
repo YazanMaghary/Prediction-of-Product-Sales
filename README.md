@@ -83,6 +83,23 @@
    * i choose it for showing the stakeholder that the predicted price are off about 742 units than the real price , and that know as average absolute error
 * after choosing best parameters the r2_score for training set is 0.666 and r2_score for testing set is 0.598 ,so there is no overfitting or underfitting or there is only very low difference between r2_score for training set and r2_score for testing set
 
+* Feature Inspectaion :
+  * Feature Importance for Tree Based Model :
+    
+    <img width="854" height="547" alt="feature_importance" src="https://github.com/user-attachments/assets/b1204109-38c6-423b-8690-31a233983a3f" />
+    
+ > Top 5 Most Important Features
+
+| Rank | Feature | Importance | Interpretation |
+|---|---|---|---|
+| 1 | **Item_MRP** | ~0.53 | Price is by far the strongest predictor of sales |
+| 2 | **Outlet_Type** | ~0.18 | Store type (supermarket vs grocery) hugely impacts sales |
+| 3 | **Outlet_Identifier_OUT027** | ~0.08 | This specific store massively outperforms others |
+| 4 | **Item_Visibility** | ~0.05 | How visible the item is on the shelf matters |
+| 5 | **Outlet_Establishment_Year** | ~0.04 | Older/newer stores perform differently |
+
+
+
 ## Recommendations:
 
 - Enhance the dataset by adding new features with strong correlation to the target variable to improve prediction accuracy.
